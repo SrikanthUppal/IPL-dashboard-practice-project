@@ -1,0 +1,181 @@
+/* Write your CSS here */
+.latest-match-container {
+  margin-top: 16px;
+}
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 12px;
+}
+.latest-match-card-logo-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.latest-card-part1 {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.competing-team-logo {
+  height: 80px;
+  width: 80px;
+  margin-left: 16px;
+}
+.competing-team {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Bree Serif';
+}
+.date {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: normal;
+  font-family: 'Bree Serif';
+}
+.venue {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+}
+.result {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: 300;
+}
+.latest-card-part2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 100;
+}
+.first-innings {
+  font-size: 16px;
+}
+.second-innings {
+  font-size: 16px;
+}
+.man-of-the-match {
+  font-size: 16px;
+}
+.umpires {
+  font-size: 16px;
+}
+.first-innings-api {
+  font-size: 13px;
+}
+.second-innings-api {
+  font-size: 13px;
+}
+.man-of-the-match-api {
+  font-size: 13px;
+}
+.umpires-api {
+  font-size: 13px;
+}
+@media (min-width: 768px) {
+  .latest-match-heading {
+    font-size: 20px;
+  }
+  .latest-match-card-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-card-part1 {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    padding-left: 18px;
+  }
+  .competing-team {
+    font-size: 36px;
+  }
+  .date {
+    font-size: 26px;
+  }
+  .venue {
+    font-size: 16px;
+  }
+  .result {
+    font-size: 15px;
+  }
+  .first-innings {
+    font-size: 22px;
+  }
+  .second-innings {
+    font-size: 22px;
+  }
+  .man-of-the-match {
+    font-size: 22px;
+  }
+  .umpires {
+    font-size: 22px;
+  }
+  .first-innings-api {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+  }
+  .second-innings-api {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+  }
+  .man-of-the-match-api {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+  }
+  .umpires-api {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+  }
+  .latest-card-part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 38%;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .competing-team-logo {
+    height: 172px;
+    width: 172px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: 0;
+  }
+  .hr-line {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .competing-team-logo {
+    height: 230px;
+    width: 220px;
+  }
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid #475569;
+}

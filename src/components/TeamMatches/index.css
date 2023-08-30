@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+.rr {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+.srh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.response-container {
+  width: 90%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.recent-matches-list {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banner-image {
+  width: 100%;
+}
